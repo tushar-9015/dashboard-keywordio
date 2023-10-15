@@ -1,0 +1,19 @@
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.dashboard-container > .col {
+    width: 50%;
+    flex: 1 1 auto;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+}
+
+.table-chart {
+    border: 1px solid lightgrey;
+    position: relative;
+    height: 475px;
+}

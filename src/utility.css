@@ -1,0 +1,74 @@
+
+
+.btn{
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 12px;
+    
+}
+
+.btn-primary{
+    background-color: rgb(25, 118, 210);
+    color: white;
+    border: none;
+    outline: none;
+}
+.btn-primary:disabled {
+    background-color: rgba(25, 118, 210, 0.4)
+}
+
+.btn-secondary {
+    background-color: white;
+    color: rgb(28, 27, 27);
+
+    border: 1px solid lightgray;
+}
+
+.blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal-background {
+    background-color: rgba(white, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 600px;
+    height: auto;
+    min-height: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+    justify-self: center;
+    
+}

@@ -1,0 +1,44 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.create__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.card.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.card input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(62, 123, 245);
+}
+
+.card .title {
+ font-size: 14px;
+ font-weight:800;
+}
+
+.card .subtitle {
+font-size: 12px;
+color: rgb(149, 148, 148);
+}
+
+.createad-btn{
+    align-self: flex-end;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    width: 150px;
+}
